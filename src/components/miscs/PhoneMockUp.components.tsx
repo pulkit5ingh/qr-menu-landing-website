@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const PhoneMockUpComponents = () => {
   return (
@@ -8,10 +9,12 @@ const PhoneMockUpComponents = () => {
       <div className='h-[46px] w-[3px] bg-gray-800 absolute -start-[17px] top-[178px] rounded-s-lg' />
       <div className='h-[64px] w-[3px] bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg' />
       <div className='rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white'>
-        <img
+        <Image
           src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-1-light.png'
+          alt='Phone mockup'
+          width={272}
+          height={572}
           className='w-[272px] h-[572px]'
-          alt=''
         />
       </div>
     </div>

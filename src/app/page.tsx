@@ -5,7 +5,7 @@ import HeroComponent from '@components/Hero.component';
 import FeatureComponent from '@components/Feature.component';
 import FooterComponent from '@components/Footer.component';
 
-const Home = () => {
+const Page = () => {
   return (
     <div>
       <NavbarComponent />
@@ -16,4 +16,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Page;
